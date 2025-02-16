@@ -1,6 +1,6 @@
 services:
   txs-flower:
-    image: 0xsambtc/safe-transaction-service:${TXS_VERSION}
+    image: zkcycle/safe-transaction-service:${TXS_VERSION}
     env_file:
       - container_env_files/txs.env
     depends_on:
